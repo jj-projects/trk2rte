@@ -3,10 +3,6 @@
  */
 package de.jjprojects.trk2rte;
 
-/**
- * @author joerg
- *
- */
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -27,7 +23,26 @@ import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.DefaultHandler;
 import org.xml.sax.helpers.XMLReaderFactory;
 
+/**
+ This java application takes an XMLTrackFile (GPX Format) and converts it into an route file (GPX Format as well).
+ 
+ @author Copyright (C) 2012  JJ-Projects Joerg Juenger <BR>
+  
+<pre>
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ </pre>
+ */
 public class trk2rte extends DefaultHandler
 {
   static final String GPXTag        = "gpx";
