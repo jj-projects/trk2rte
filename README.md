@@ -18,7 +18,7 @@ java -classpath trk2rte.jar de.jjprojects.trk2rte -Djava.util.logging.config.fil
 
 ## Author
 
-Joerg Juenger ( jjuenger, joerg@jj-projects.de ), JJ-Projects Joerg Juenger
+Joerg Juenger ( jj-projects, joerg@jj-projects.de ), JJ-Projects Joerg Juenger
 
 ## Licenses
 
